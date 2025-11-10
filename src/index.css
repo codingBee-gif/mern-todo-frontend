@@ -1,0 +1,48 @@
+/* Tailwind (v3 or v4) */
+@import "tailwindcss";  /* v4 */
+:root { color-scheme: light; }
+html, body, #root { height: 100%; }
+body { /* avoid @apply here on v4 to dodge warnings */
+  background: #f7f9fc;
+  color: #1f2937; /* slate-800 hex */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Force light color scheme so browsers don't apply dark */
+:root { color-scheme: light; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-[#f7f9fc] text-slate-800 antialiased;
+}
+
+/* Simple container + card utilities to keep JSX clean */
+.container-page {
+  @apply max-w-3xl mx-auto px-4 py-8;
+}
+.card {
+  @apply bg-white rounded-xl shadow-md p-6;
+}
+.input {
+  @apply w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-medium transition;
+}
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800;
+}
+.btn-ghost {
+  @apply text-slate-700 hover:bg-slate-100;
+}
+.link {
+  @apply text-blue-600 hover:underline;
+}
+.badge {
+  @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700;
+}
