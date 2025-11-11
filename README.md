@@ -1,16 +1,36 @@
-# React + Vite
+# ✅ MERN Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **MERN Todo App** built with **React (Vite)**, **Node.js**, **Express**, and **MongoDB Atlas**.  
+It allows users to **register, log in, and manage todos** — add, edit, mark as complete, and delete tasks easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Project Links
+- 🌐 **Frontend (Netlify):** https://<your-netlify-site>.netlify.app  
+- ⚙️ **Backend (Render):** https://mern-todo-backend-2ced.onrender.com  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Tech Stack
+**Frontend:** React + Vite + Tailwind CSS  
+**Backend:** Node.js + Express.js + MongoDB Atlas  
+**Authentication:** JWT (JSON Web Token)  
+**Deployment:** Netlify (Frontend) + Render (Backend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Features
+- 🔐 User registration & login  
+- ✏️ Add / Edit / Delete todos  
+- ✅ Mark todos as completed  
+- 📱 Responsive design with Tailwind CSS  
+- ☁️ Fully deployed & connected to live MongoDB database  
+
+---
+
+## 🛠️ Installation (For Local Setup)
+
+### 1️⃣ Clone the repositories
+```bash
+git clone https://github.com/codingBee-gif/mern-todo-frontend.git
+git clone https://github.com/codingBee-gif/mern-todo-backend.git
