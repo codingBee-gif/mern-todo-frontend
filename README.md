@@ -6,7 +6,7 @@ It allows users to **register, log in, and manage todos** — add, edit, mark as
 ---
 
 ## 🚀 Live Project Links
-- 🌐 **Frontend (Netlify):** https://<your-netlify-site>.netlify.app  
+- 🌐 **Frontend (Netlify):** https://mernto-do-application.netlify.app/todos
 - ⚙️ **Backend (Render):** https://mern-todo-backend-2ced.onrender.com  
 
 ---
